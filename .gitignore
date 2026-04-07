@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+venv/
+.env
+*.pkl
+*.pt
+*.h5
+*.onnx
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Dados e modelos treinados (muito grandes para git)
+data/raw/
+data/processed/
+*.tif
+*.tiff
+*.geotiff
+
+# Runs de treino YOLOv8
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
